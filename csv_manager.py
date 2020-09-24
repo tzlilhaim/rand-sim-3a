@@ -22,3 +22,14 @@ class CSV_Manager:
             all_data.append(data_dict)
 
         return all_data
+
+    # def map_by_field(articles):
+    #     categories = [ article['category'] for article in articles] 
+    #     authors = [ article['author'] for article in articles] 
+    #     mapped={}
+    #     for category in categories:
+    #         mapped[category] = []
+    #     for author in authors:
+    #         mapped[author] = []
+    #     return mapped
+
